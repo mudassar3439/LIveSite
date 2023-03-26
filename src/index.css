@@ -1,0 +1,97 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.text-left{
+  text-align: left !important;
+}
+.navbar{
+  color: #fff !important;
+}
+.navbar-brand{
+  font-size:21 !important;
+  color: #565387 !important;
+}
+.navbar a{
+  font-size:21px;
+  text-transform: capitalize;
+}
+a.active{
+  color:blueviolet !important;
+  border-bottom:2px double blue;
+}
+ 
+ .navbar a:hover{
+  color:blue;
+ }
+ /* ===============================================Header Section============================ */
+ .img{
+  height:200px;
+  width:350px;
+ }
+ #header{
+  width:100%;
+  height:80vh;
+  margin-top:70px;
+ }
+ #header h1{
+  margin: 0 0 10px 0;
+  font-size:45px;
+  font-weight:400;
+  color:black;
+ }
+ #header .brand-name{
+  color:#3498db;
+ }
+ #header h2{
+  color:#484848;
+  font-size: 20px !important;
+ }
+ #header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display:inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:#3498db;
+  border:2px solid #3498db;
+  text-decoration: none; 
+
+ }
+ #header .btn-get-started:hover{
+  background-color: #3498db;
+  color: #fff;
+ }
+ 
+ .animated{
+  -webkit-animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+/* offcanvas  */
+.bg{
+  background-color: antiquewhite;
+}
