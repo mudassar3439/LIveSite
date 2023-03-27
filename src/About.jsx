@@ -8,7 +8,7 @@ const About=()=>{
    <Common name="Welcome To About Page" 
     imgsrc={web} 
     visit="/contact"
-    btname="Get Startted"  
+    btname="Contect"  
     />
     </>
    )
