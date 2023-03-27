@@ -6,17 +6,17 @@ const Common=(props)=>{
    return(
     <> 
     <section id="header" className="d-flex ">
-    <div className="container-fluid  mb-5">
+    <div className="container-fluid   mb-5">
       <div className="row">
       <div className="col-10 mx-auto">
       <div className="row">
-      <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  ">
+      <div className="col-md-6  pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  ">
         <h1>{props.name}<strong className="brand-name"> Live-Site </strong>
         </h1>
         <h2 className="my-3">
           We are hare to increase your shopping lavel
         </h2>
-        <div className="">
+        <div className="mt-3 text-center">
          <NavLink to={props.visit} className="btn-get-started">{props.btname}</NavLink>
         </div>
       </div>
