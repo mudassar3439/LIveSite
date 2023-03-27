@@ -8,7 +8,7 @@ const Home=()=>{
     <Common name="Grow your Shopping with" 
     imgsrc={web} 
     visit="/service"
-    btname="Get Startted"  
+    btname="Get Started"  
     />
 
     </>
