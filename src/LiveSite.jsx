@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import Loading from './Loading';
-// import App from './App';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import AnimatedParagraph from './AnimatedParagraph'
 
@@ -24,7 +23,7 @@ const [loading, setLoading] = useState(true);
       <div className="row">
       <div className="col-10 mx-auto">
       
-      <div className='col-12 text-center'>
+      <div className='col-12 text-center '>
       <h1><AnimatedParagraph text="Welcome To Live-Site "/></h1>
           {loading ? (
             <Loading />

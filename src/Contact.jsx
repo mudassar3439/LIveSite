@@ -1,10 +1,12 @@
 
 import  {useState,React} from 'react';
+import Heading from './Heading';
 import AnimatedParagraph from './AnimatedParagraph'
 
 const Contact = () => {
   const [show,setshow]=useState()
   const [submittedData, setSubmittedData] = useState(null);
+  const [ddata,setddat]=useState()
   const [data,setdata]=useState({
     fullname:'',
     phone:"",
@@ -37,7 +39,7 @@ const Contact = () => {
 return (
 <>
       <div className="mt-3 text-center">
-        <h1 className="">Contact-US</h1>
+       <Heading h1='Contact-US'/>
       </div>
 
 <div className="container "id='header'>
@@ -88,7 +90,7 @@ return (
   <div style={{ width: '90vh'}} className="offcanvas bg offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 
       <div className="offcanvas-header">
-      <h4 className="offcanvas-title" id="offcanvasExampleLabel">Confirmation</h4>
+      <div className="offcanvas-title" id="offcanvasExampleLabel"><Heading h4='Confirmation'/></div>
       <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
       <div className="offcanvas-body">
@@ -108,6 +110,18 @@ return (
               <button type="button" className="btn btn-primary" onClick={() => { alert("Your Data Submitted Successfully")}}>Confirm</button>
             </div>
         </form>
+      <div className='text-center mt-2'>
+          <button className='btn btn-outline-warning ' onClick={()=>{setddat(!ddata)}}>About Developer</button>
+      </div>
+      {ddata &&(
+        <>
+          <div>
+          <h2>Name:    <span className='text-danger font-size'>Mudassar Mobeen</span></h2>
+          <h2>Qulification:<span className='text-primary font-size'> Bs Software Engineering</span></h2>
+          <h2>Dasignation: <span  className='text-danger font-size'>Front-End Developer</span></h2>
+          </div>
+        </>
+      )}
 
       </div>
   </div>

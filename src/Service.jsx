@@ -1,12 +1,13 @@
 import React from "react";
 import Card from "./Card";
+import Heading from "./Heading";
 import Sdata from "./Sdata";
 
 const Service=()=>{
 return(
     <>
     <div className="my-5">
-    <h1 className="text-center">Our Services</h1>
+    <div className="text-center"><Heading h1='Our Services'/></div>
    </div>
 <div className="container-fluid mb-5 "id="header">
   <div className="row">

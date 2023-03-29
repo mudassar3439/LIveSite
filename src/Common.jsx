@@ -1,4 +1,5 @@
 import React from "react";
+import Heading from './Heading';
 import { NavLink } from 'react-router-dom';
 
 
@@ -11,8 +12,7 @@ const Common=(props)=>{
       <div className="col-10 mx-auto">
       <div className="row">
       <div className="col-md-6 mb-5 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  ">
-        <h1>{props.name}<strong className="brand-name"> Live-Site </strong>
-        </h1>
+        <h1>{props.name}<div><strong ><Heading h1='Live Site'/></strong></div></h1>
         <h2 className="my-3">
           We are hare to increase your shopping lavel
         </h2>

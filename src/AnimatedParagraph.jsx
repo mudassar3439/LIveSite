@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+// import F1 from './F1';
 import PropTypes from 'prop-types';
 import Typewriter from 'typewriter-effect';
 

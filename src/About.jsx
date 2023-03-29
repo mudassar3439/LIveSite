@@ -1,4 +1,5 @@
 import React from "react";
+// import F1 from './F1';
 import web from '../src/images/img2.png'
 import Common from "./Common";
 

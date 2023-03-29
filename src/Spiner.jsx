@@ -11,7 +11,7 @@ const Spinner = () => {
     // Simulate a delay to show the loading effect
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 3000);
   }, []);
 
   return (

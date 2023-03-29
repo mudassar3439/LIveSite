@@ -37,8 +37,8 @@ a.active{
  }
  #header h1{
   margin: 0 0 10px 0;
-  font-size:45px;
-  font-weight:350;
+  font-size:40px;
+  font-weight:400;
   color:black;
  }
  #header .brand-name{
@@ -94,4 +94,12 @@ a.active{
 /* offcanvas  */
 .bg{
   background-color: antiquewhite;
+}
+.Heading-1{
+  margin: 0 0 10px 0 !important;
+  font-size:42px !important;
+  font-weight:650 !important;
+}
+.Heading-2{
+  font-size: 20px !important;
 }
