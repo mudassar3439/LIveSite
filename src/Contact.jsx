@@ -115,8 +115,8 @@ return (
       </div>
       {ddata &&(
         <>
-          <div>
-          <h2>Name:    <span className='text-danger font-size'>Mudassar Mobeen</span></h2>
+          <div className='mt-2'>
+          <h2>Name:<span className='text-danger font-size'>Mudassar Mobeen</span></h2>
           <h2>Edu:<span className='text-primary font-size'> BS Software Engineering </span></h2>
           <h2>Dasignation: <span  className='text-danger font-size'>Front-End Developer</span></h2>
           </div>
